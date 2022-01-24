@@ -1,0 +1,172 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body .claer {
+  clear: both;
+}
+body hr {
+  padding: 0;
+  background-color: red;
+  height: 2px;
+  width: 120px;
+}
+body h4 {
+  text-align: center;
+}
+body i {
+  font-size: 32px;
+}
+body ul {
+  float: right;
+  margin-right: 10px;
+}
+body header {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 50px;
+  background-color: #fff;
+}
+body header img {
+  float: left;
+}
+body header ul li {
+  padding: 4px;
+  border: 1px solid #f1f1f1;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+body header ul a {
+  text-decoration: none;
+}
+body header ul i {
+  font-size: 18px;
+}
+body .enter {
+  position: sticky;
+  top: 50px;
+  left: 0;
+  z-index: 1;
+  height: 55px;
+  box-sizing: border-box;
+}
+body .enter h1 {
+  float: left;
+  color: blue;
+}
+body .enter h1:hover {
+  transition: 2s all linear;
+  color: red;
+}
+body .enter ul {
+  margin-right: 50px;
+}
+body .enter ul a {
+  text-decoration: none;
+  color: white;
+}
+body .enter ul a:hover {
+  border-bottom: 2px solid red;
+}
+body .container-fluid {
+  border-radius: none;
+}
+body .container-fluid .col-md-12 {
+  padding: 0;
+}
+body .row:nth-child(4) .col-md-4 .left {
+  width: 30%;
+  float: left;
+  display: block;
+}
+body .row:nth-child(4) .col-md-4 .left a i {
+  font-size: 60px;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  padding: 15px;
+}
+body .row:nth-child(4) .col-md-4 .right {
+  width: 70%;
+  float: left;
+}
+
+#Request p {
+  float: left;
+  margin-top: 20px;
+  margin-left: 200px;
+  font-size: 20px;
+}
+#Request button {
+  float: right;
+  margin-top: 12px;
+  margin-right: 100px;
+}
+
+#past p {
+  margin-left: 60px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+#past ul {
+  float: left;
+  margin-left: 50px;
+}
+#past ul li {
+  margin-right: 10px;
+}
+#past ul li a i {
+  font-size: 36px;
+}
+
+#test {
+  position: relative;
+  transition: all 300ms ease;
+}
+#test .test3 {
+  position: relative;
+  width: 273px;
+  height: 202px;
+  transition: all 0.5s linear;
+  overflow: hidden;
+}
+#test .test3 img {
+  position: absolute;
+}
+#test .cover {
+  position: absolute;
+  width: 95%;
+  height: 50px;
+  margin-left: 4px;
+  bottom: -42px;
+  display: none;
+}
+#test p {
+  padding: 0;
+  margin: 0;
+}
+#test:hover img {
+  top: -20px;
+  transition: 0.3s all linear;
+}
+#test:hover .cover {
+  bottom: 0;
+  display: inline-block;
+  transition: all 2s linear;
+}
+
+.jumbotron {
+  margin: 0;
+}
+.jumbotron p:first-child {
+  font-size: 60px;
+  letter-spacing: 8px;
+}
+
+.container .row .col-md-3 {
+  padding: 8px !important;
+}
+
+/*# sourceMappingURL=main.css.map */
